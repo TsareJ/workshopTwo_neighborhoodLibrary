@@ -54,8 +54,15 @@ public class Main {
             this.isCheckedOut = false;
             this.checkedOutTo = " ";
 
-
     }
 
-    public void chec
+    public void checkOut(String title){
+        this.isCheckedOut = true;
+        this.checkedOutTo = "name";
+    }
+
+    public void checkIn(){
+        this.isCheckedOut = false;
+        this.checkedOutTo = " ";
+    }
 }
