@@ -78,11 +78,10 @@ public class BookInventory {
             displayHomeScreen();
         }
 
-        private static void formatInventory() {
-            Book[] inventory = new Book[20];
+        private static Book[] inventory = {
 
-            inventory[0] = new Book(13434, "ISBN-01", "Berserk: Deluxe Edition", false, " ");
-            inventory[1] = new Book(13435, "ISBN-02", "One Piece: Volume 1", false, " ");
+           new Book(13434, "ISBN-01", "Berserk: Deluxe Edition", false, " ");
+           new Book(13435, "ISBN-02", "One Piece: Volume 1", false, " ");
             inventory[3] = new Book(13436, "ISBN-03", "Naruto: Volume 1", false, " ");
             inventory[4] = new Book(13437, "ISBN-04", "Naruto Shippuden: Volume 1", false, " ");
             inventory[5] = new Book(13438, "ISBN-05", "Bleach: Volume 1", false, " ");
@@ -102,6 +101,7 @@ public class BookInventory {
             inventory[19] = new Book(13453, "ISBN-19", "One Piece: Volume 3", false, " ");
             inventory[20] = new Book(13454, "ISBN-20", "One Piece: Volume 4", false, " ");
         }
+        private static void displayHomeScreen(){
 
         }
 }
