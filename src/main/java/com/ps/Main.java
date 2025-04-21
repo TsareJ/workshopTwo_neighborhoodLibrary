@@ -1,6 +1,9 @@
 package com.ps;
+import java.awt.print.Book;
+import java.util.Scanner;
 
 public class Main {
+
     private int id;
     private String isbn;
     private String title;
@@ -64,5 +67,42 @@ public class Main {
     public void checkIn(){
         this.isCheckedOut = false;
         this.checkedOutTo = " ";
+
     }
+
+public class BookInventory {
+        private static Book[] inventory;
+        private static Scanner scanner = new Scanner(System.in);
+
+        public static void main(String[] args){
+            formatInventory();
+            displayHomeScreen();
+        }
+
+        private static void formatInventory(){
+            inventory = new Book[20];
+            inventory[0] = new Book()
+            inventory[1] = new Book()
+            inventory[3] = new Book()
+            inventory[4] = new Book()
+            inventory[5] = new Book()
+            inventory[6] = new Book()
+            inventory[7] = new Book()
+            inventory[8] = new Book()
+            inventory[9] = new Book()
+            inventory[10] = new Book()
+            inventory [11] = new Book()
+            inventory[12] = new Book()
+            inventory[13] = new Book()
+            inventory[14] = new Book()
+            inventory[15] = new Book()
+            inventory[16] = new Book()
+            inventory[17] = new Book()
+            inventory[18] = new Book()
+            inventory[19] = new Book()
+            inventory[20] = new Book()
+
+        }
+}
+
 }
