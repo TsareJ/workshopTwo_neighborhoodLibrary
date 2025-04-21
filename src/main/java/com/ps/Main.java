@@ -80,8 +80,8 @@ public class BookInventory {
 
         private static Book[] inventory = {
 
-           new Book(13434, "ISBN-01", "Berserk: Deluxe Edition", false, " ");
-           new Book(13435, "ISBN-02", "One Piece: Volume 1", false, " ");
+            inventory[1] = new Book(13434, "ISBN-01", "Berserk: Deluxe Edition", false, " ");
+            inventory[2] = new Book(13435, "ISBN-02", "One Piece: Volume 1", false, " ");
             inventory[3] = new Book(13436, "ISBN-03", "Naruto: Volume 1", false, " ");
             inventory[4] = new Book(13437, "ISBN-04", "Naruto Shippuden: Volume 1", false, " ");
             inventory[5] = new Book(13438, "ISBN-05", "Bleach: Volume 1", false, " ");
@@ -102,6 +102,12 @@ public class BookInventory {
             inventory[20] = new Book(13454, "ISBN-20", "One Piece: Volume 4", false, " ");
         }
         private static void displayHomeScreen(){
+            System.out.println("The Neighborhood Library is at your service");
+            System.out.println("Show Available Books");
+            System.out.println("Show Checked out Books");
+            System.out.println("EXIT NOW");
+            System.out.println("Please select an option");
+
 
         }
 }
